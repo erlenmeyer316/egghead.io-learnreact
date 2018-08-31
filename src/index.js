@@ -13,12 +13,13 @@ import ComponentWithNestedData from './ComponentWithNestedData';
 import CustomPropValidation from './CustomPropValidation';
 import SyntheticEvents from './SyntheticEvents';
 import ComponentReferences from './ComponentReferences';
+import ComponentLifecycleMethods from './ComponentLifecycleMethods';
 /*ServiceWorker*/
 import registerServiceWorker from './registerServiceWorker';
 
 
 ReactDOM.render(
-    < ComponentReferences /> ,
+    < ComponentLifecycleMethods /> ,
     document.getElementById('root')
 );
 registerServiceWorker();
