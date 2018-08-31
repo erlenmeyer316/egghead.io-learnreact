@@ -11,12 +11,13 @@ import ComponentWithState from './ComponentWithState';
 import ChildComponents from './ChildComponents';
 import ComponentWithNestedData from './ComponentWithNestedData';
 import CustomPropValidation from './CustomPropValidation';
+import EventNormalization from './EventNormalization';
 /*ServiceWorker*/
 import registerServiceWorker from './registerServiceWorker';
 
 
 ReactDOM.render(
-    <CustomPropValidation />, 
+    < EventNormalization /> ,
     document.getElementById('root')
 );
 registerServiceWorker();
