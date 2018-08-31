@@ -10,12 +10,13 @@ import ComponentWithTypedProps from './ComponentWithTypedProps';
 import ComponentWithState from './ComponentWithState';
 import ChildComponents from './ChildComponents';
 import ComponentWithNestedData from './ComponentWithNestedData';
+import CustomPropValidation from './CustomPropValidation';
 /*ServiceWorker*/
 import registerServiceWorker from './registerServiceWorker';
 
 
 ReactDOM.render(
-    <ComponentWithNestedData  />, 
+    <CustomPropValidation />, 
     document.getElementById('root')
 );
 registerServiceWorker();
