@@ -10,12 +10,13 @@ import ComponentWithTypedProps from './ComponentWithTypedProps';
 import ComponentWithState from './ComponentWithState';
 import ChildComponents from './ChildComponents';
 import ComponentWithNestedData from './ComponentWithNestedData';
+import EventNormalization from './EventNormalization';
 /*ServiceWorker*/
 import registerServiceWorker from './registerServiceWorker';
 
 
 ReactDOM.render(
-    <ComponentWithNestedData  />, 
+    < EventNormalization /> ,
     document.getElementById('root')
 );
 registerServiceWorker();
