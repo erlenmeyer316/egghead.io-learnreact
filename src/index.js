@@ -14,12 +14,13 @@ import CustomPropValidation from './CustomPropValidation';
 import SyntheticEvents from './SyntheticEvents';
 import ComponentReferences from './ComponentReferences';
 import ComponentLifecycleMethods from './ComponentLifecycleMethods';
+import ComponentUpdates from './ComponentUpdates';
 /*ServiceWorker*/
 import registerServiceWorker from './registerServiceWorker';
 
 
 ReactDOM.render(
-    < ComponentLifecycleMethods /> ,
+    < ComponentUpdates /> ,
     document.getElementById('root')
 );
 registerServiceWorker();
