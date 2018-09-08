@@ -15,12 +15,18 @@ import SyntheticEvents from './SyntheticEvents';
 import ComponentReferences from './ComponentReferences';
 import ComponentLifecycleMethods from './ComponentLifecycleMethods';
 import ComponentUpdates from './ComponentUpdates';
+import MapComponentsFromArrays from './MapComponentsFromArrays';
+import HigherOrderComponent from './HigherOrderComponent';
+import JsxCompiler from './JsxCompiler';
+import ReactChildrenUtils from './ReactChildrenUtils';
+import ExtendChildComponents from './ExtendChildComponents';
+import ComposableAPI from './ComposableAPI';
 /*ServiceWorker*/
 import registerServiceWorker from './registerServiceWorker';
 
 
 ReactDOM.render(
-    < ComponentUpdates /> ,
+    < ComposableAPI /> ,
     document.getElementById('root')
 );
 registerServiceWorker();
